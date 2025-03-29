@@ -1,6 +1,6 @@
 {
   "name": "@gettoolbase/mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./build/index.js",
   "bin": {
     "toolbase-mcp": "./build/index.js"
@@ -24,6 +24,7 @@
     "ai": "^4.2.8",
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
+    "dotenv": "^16.4.7",
     "handlebars": "^4.7.8",
     "json-schema": "^0.4.0",
     "uuid": "^11.1.0"
@@ -35,5 +36,8 @@
   "files": [
     "build",
     "README.md"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
